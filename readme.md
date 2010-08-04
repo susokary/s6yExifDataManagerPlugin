@@ -10,6 +10,11 @@ A symfony plugin dedicated to the management of Exif data from JPEG/TIFF image f
 2. Clear your cache;
 3. And that's all!
 
+## Demonstration
+
+Wanna know more about its functionnalities?  
+After you installed this plugin, let's go to : http//ROOT_URL_OF_YOUR_PROJECT/s6yExifDataManagerPlugin/demo  
+
 ## Author
 
 [Jérôme Pierre <contact@susokary.com>](mailto:contact@susokary.com "Send an email to the author")

@@ -1,0 +1,5 @@
+s6yExifDataManagerPlugin:
+  url:   /s6yExifDataManagerPlugin/demo
+  param:
+    module: default
+    action: index
