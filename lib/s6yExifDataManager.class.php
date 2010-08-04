@@ -10,51 +10,51 @@
  * @author     Jérôme Pierre <contact@susokary.com>
  * @version    V1 - July 28th 2010
  *
- * @method string  getFileName()                 Provides the name of the current image file (e.g.: 'jpierre.jpg').
- * @method integer getFileDateTime()             Provides the date/time of the current image file (e.g.: 1234545715).
- * @method integer getFileSize()                 Provides the size of the current image file (e.g.: 1049407).
- * @method integer getFileType()                 Provides the type of the current image file (e.g.: 2).
- * @method string  getMimeType()                 Provides the MIME type of the current image (e.g.: 'image/jpeg').
- * @method string  getSectionsFound()            Provides the list of the sections found in the Exif data of the current image (e.g.: 'ANY_TAG, IFD0, EXIF').
- * @method array   getCOMPUTED()                 Provides various informations about the current image (e.g.: array('html' => 'width="1331" height="1997"', 'Height' => 1997, 'Width' => 1331, 'IsColor' => 1, 'ByteOrderMotorola' => 0, 'CCDWidth' => '9mm', 'ApertureFNumber' => 'f/11.0', 'UserComment' => null, 'UserCommentEncoding' => 'UNDEFINED')).
- * @method string  getImageDescription()         Provides the description of the current image (e.g.: 'Style: "Portrait B&W"').
- * @method integer getOrientation()              Provides the orientation of the current image (e.g.: 1).
- * @method integer getYCbCrPositioning()         Provides the YCbCr positioning of the current image (e.g.: 1).
- * @method string  getXResolution()              Provides the X resolution of the current image (e.g.: '300/1').
- * @method string  getYResolution()              Provides the Y resolution of the current image (e.g.: '300/1').
- * @method integer getResolutionUnit()           Provides the resolution unit of the current image (e.g.: 2).
- * @method string  getDateTime()                 Provides the date/time of the current image (e.g.: '2007:00:00 00:00:00').
- * @method string  getDateTimeOriginal()         Provides the original date/time of the current image (e.g.: '2009:02:13 18:41:56').
- * @method string  getDateTimeDigitized()        Provides the digitized date/time of the current image (e.g.: '2009:02:13 18:41:56').
- * @method string  getMake()                     Provides the brand of the camera with which the current image was taken (e.g.: 'Canon').
- * @method string  getModel()                    Provides the model of the camera with which the current image was taken (e.g.: 'Canon EOS-1Ds Mark II').
- * @method string  getSoftware()                 Provides the software of the camera with which the current image was taken (e.g.: 'Capture One PRO 3.7.4 (3207) [fw: Firmware Version 1.1.6]').
- * @method integer getExif_IFD_Pointer()         Provides a pointer to the Exif IFD of the current image (e.g.: 186).
- * @method string  getExifVersion()              Provides the version of the Exif standard supported by the current image (e.g.: '0221').
- * @method string  getFlashPixVersion()          Provides the FlashPix format version supported by the current image (e.g.: '0010').
- * @method mixed   getColorSpace()               Provides the color space specifier of the current image (e.g.: 65535 - can also be an array of integer values sometimes, instead of just an integer).
- * @method string  getFNumber()                  Provides the FNumber of the current image (e.g.: '11/1').
- * @method string  getExposureTime()             Provides the exposure time of the current image (e.g.: '1/125').
- * @method integer getExposureProgram()          Provides the exposure program of the current image (e.g.: 1).
- * @method integer getISOSpeedRatings()          Provides the ISO speed ratings of the current image (e.g.: 100).
- * @method string  getComponentsConfiguration()  Provides various informations, specific to compressed data, about the current image (e.g.: '').
- * @method string  getShutterSpeedValue()        Provides the shutter speed value of the current image (e.g.: '458752/65536').
- * @method string  getApertureValue()            Provides the aperture value of the current image (e.g.: '458752/65536').
- * @method string  getExposureBiasValue()        Provides the exposure bias value of the current image (e.g.: '0/1').
- * @method integer getMeteringMode()             Provides the metering mode of the current image (e.g.: 5).
- * @method integer getFlash()                    Provides the flash of the current image (e.g.: 16).
- * @method string  getFlashPixVersion()          Provides the flash pix version of the current image (e.g.: '0100').
- * @method string  getFocalLength()              Provides the focal length of the current image (e.g.: '100/1').
- * @method string  getUserComment()              Provides the user comment of the current image (e.g.: '').
- * @method integer getExifImageWidth()           Provides the width of the current image (e.g.: 2048).
- * @method integer getExifImageLength()          Provides the length of the current image (e.g.: 1536).
- * @method string  getFocalPlaneXResolution()    Provides the focal plane X resolution of the current image (e.g.: '5008000/1420').
- * @method string  getFocalPlaneYResolution()    Provides the focal plane Y resolution of the current image (e.g.: '3334000/945').
- * @method integer getFocalPlaneResolutionUnit() Provides the focal plane resolution unit of the current image (e.g.: 2).
- * @method integer getCustomRendered()           Provides the custom rendered of the current image (e.g.: 0).
- * @method integer getExposureMode()             Provides the exposure mode of the current image (e.g.: 1).
- * @method integer getWhiteBalance()             Provides the white balance of the current image (e.g.: 0).
- * @method integer getSceneCaptureType()         Provides the scene capture type of the current image (e.g.: 0).
+ * @method string  getFileName()                 Provides the name of the current image file.
+ * @method integer getFileDateTime()             Provides the date/time of the current image file.
+ * @method integer getFileSize()                 Provides the size of the current image file.
+ * @method integer getFileType()                 Provides the type of the current image file.
+ * @method string  getMimeType()                 Provides the MIME type of the current image.
+ * @method string  getSectionsFound()            Provides the list of the sections found in the Exif data of the current image.
+ * @method array   getCOMPUTED()                 Provides various informations about the current image.
+ * @method string  getImageDescription()         Provides the description of the current image.
+ * @method integer getOrientation()              Provides the orientation of the current image.
+ * @method integer getYCbCrPositioning()         Provides the YCbCr positioning of the current image.
+ * @method string  getXResolution()              Provides the X resolution of the current image.
+ * @method string  getYResolution()              Provides the Y resolution of the current image.
+ * @method integer getResolutionUnit()           Provides the resolution unit of the current image.
+ * @method string  getDateTime()                 Provides the date/time of the current image.
+ * @method string  getDateTimeOriginal()         Provides the original date/time of the current image.
+ * @method string  getDateTimeDigitized()        Provides the digitized date/time of the current image.
+ * @method string  getMake()                     Provides the brand of the camera with which the current image was taken.
+ * @method string  getModel()                    Provides the model of the camera with which the current image was taken.
+ * @method string  getSoftware()                 Provides the software of the camera with which the current image was taken.
+ * @method integer getExif_IFD_Pointer()         Provides a pointer to the Exif IFD of the current image.
+ * @method string  getExifVersion()              Provides the version of the Exif standard supported by the current image.
+ * @method string  getFlashPixVersion()          Provides the FlashPix format version supported by the current image.
+ * @method mixed   getColorSpace()               Provides the color space specifier of the current image.
+ * @method string  getFNumber()                  Provides the FNumber of the current image.
+ * @method string  getExposureTime()             Provides the exposure time of the current image.
+ * @method integer getExposureProgram()          Provides the exposure program of the current image.
+ * @method integer getISOSpeedRatings()          Provides the ISO speed ratings of the current image.
+ * @method string  getComponentsConfiguration()  Provides various informations, specific to compressed data, about the current image.
+ * @method string  getShutterSpeedValue()        Provides the shutter speed value of the current image.
+ * @method string  getApertureValue()            Provides the aperture value of the current image.
+ * @method string  getExposureBiasValue()        Provides the exposure bias value of the current image.
+ * @method integer getMeteringMode()             Provides the metering mode of the current image.
+ * @method integer getFlash()                    Provides the flash of the current image.
+ * @method string  getFlashPixVersion()          Provides the flash pix version of the current image.
+ * @method string  getFocalLength()              Provides the focal length of the current image.
+ * @method string  getUserComment()              Provides the user comment of the current image.
+ * @method integer getExifImageWidth()           Provides the width of the current image.
+ * @method integer getExifImageLength()          Provides the length of the current image.
+ * @method string  getFocalPlaneXResolution()    Provides the focal plane X resolution of the current image.
+ * @method string  getFocalPlaneYResolution()    Provides the focal plane Y resolution of the current image.
+ * @method integer getFocalPlaneResolutionUnit() Provides the focal plane resolution unit of the current image.
+ * @method integer getCustomRendered()           Provides the custom rendered of the current image.
+ * @method integer getExposureMode()             Provides the exposure mode of the current image.
+ * @method integer getWhiteBalance()             Provides the white balance of the current image.
+ * @method integer getSceneCaptureType()         Provides the scene capture type of the current image.
  * ...
  */
 class s6yExifDataManager
