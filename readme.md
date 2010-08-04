@@ -2,7 +2,8 @@
 
 ## Description
 
-A symfony plugin dedicated to the management of Exif data from JPEG/TIFF image files.
+A symfony plugin dedicated to the management of Exif data from JPEG/TIFF image files.  
+It was developed under the 1.4 version of symfony, and may require some adjustments in order to work with other versions.  
 
 ## Installation
 
