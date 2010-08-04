@@ -13,14 +13,13 @@ It was developed under the 1.4 version of symfony, and so may require some adjus
 
 ## Demonstration
 
-Wondering what the fuck are its functionnalities?  
-After you installed this plugin, let's go to : http//ROOT_URL_OF_YOUR_PROJECT/s6yExifDataManagerPlugin/demo  
+Wondering what are its functionnalities?  
+In order to have a sneak peek, after you installed this plugin, let's go to : http//ROOT_URL_OF_YOUR_PROJECT/s6yExifDataManagerPlugin/demo  
 
 ## Author
 
-Jérôme Pierre  
 Wanna know more about me?  
-You could have a look at my personal page: [http://susokary.com/](http://susokary.com/ "See the personal page of the author")  
+You could have a look at my personal page: [http://www.susokary.com/](http://www.susokary.com/ "See the personal page of the author")  
 Or maybe send me a email at: [contact@susokary.com](mailto:contact@susokary.com "Send an email to the author")  
 
 ## License
