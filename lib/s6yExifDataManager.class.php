@@ -10,6 +10,9 @@
  * @author     Jérôme Pierre <contact@susokary.com>
  * @version    V1 - July 28th 2010
  *
+ * @method string getFilePath Provides the file path of the current image file.
+ * @method array  getExifData Provides the exif data of the current image file.
+ *
  * @method string  getFileName()                 Provides the name of the current image file.
  * @method integer getFileDateTime()             Provides the date/time of the current image file.
  * @method integer getFileSize()                 Provides the size of the current image file.
@@ -56,6 +59,8 @@
  * @method integer getWhiteBalance()             Provides the white balance of the current image.
  * @method integer getSceneCaptureType()         Provides the scene capture type of the current image.
  * ...
+ *
+ * @todo Find a better way to list the available methods.
  */
 class s6yExifDataManager
 {
@@ -181,13 +186,26 @@ class s6yExifDataManager
       throw new sfException('No JPEG/TIFF image file has been supplied.');
     }
 
-    if (mb_substr($method, 0, 3) === 'get' && isset($this->_exif_data[mb_substr($method, 3)]))
+    switch ($method)
     {
-      return $this->_exif_data[mb_substr($method, 3)];
-    }
-    else
-    {
-      throw new sfException('The called method is undefined for the supplied JPEG/TIFF image file.');
+      case 'getFilePath':
+        return $this->_file_path;
+        break;
+
+      case 'getExifData':
+        return $this->_exif_data;
+        break;
+
+      default:
+        if (mb_substr($method, 0, 3) === 'get' && isset($this->_exif_data[mb_substr($method, 3)]))
+        {
+          return $this->_exif_data[mb_substr($method, 3)];
+        }
+        else
+        {
+          throw new sfException('The called method is undefined for the supplied JPEG/TIFF image file.');
+        }
+        break;
     }
   }
 
